@@ -1,0 +1,92 @@
+html {
+	font-size: 62.5%; /** Reset para REMS - 62.5% es lo mismo que 10px **/
+}
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 1.6rem;
+	line-height: 2;
+}
+
+/** Global **/
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 3.8rem;
+}
+h2 {
+	font-size: 3.4rem;
+}
+h3 {
+	font-size: 3rem;
+}
+h4 {
+	font-size: 2.6rem;
+}
+
+/** Utilidades **/
+.section {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.fw-300 {
+	font-weight: 300;
+}
+.centrar-texto {
+	text-align: center;
+}
+
+/* Header */
+.site-header.inicio {
+	background: url(../img/header.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	min-height: 60rem;
+}
+.contain-header {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.contain-header h1 {
+	color: #fff;
+	padding-bottom: 2rem;
+	max-width: 60rem;
+	line-height: 2;
+}
+.barra {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 3rem;
+}
+
+/** Navegacion **/
+.navegacion a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.8rem;
+	margin-right: 2rem;
+}
+.navegacion a:hover {
+	color: #abff19;
+}
+.navegacion a:last-of-type {
+	margin-right: 0;
+}
+
+/**Iconos Nosotros **/
+.iconos-nosotros {
+	display: flex;
+	justify-content: space-between;
+}
+.icono {
+	flex-basis: calc(33.33% - 1rem);
+	text-align: center;
+}
+.icono h3 {
+	text-transform: uppercase;
+}
