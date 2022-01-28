@@ -107,6 +107,8 @@ img {
 	text-align: center;
 	display: block;
 	font-size: 1.8rem;
+	color: #fff;
+	text-decoration: none;
 }
 @media (min-width: 768px) {
 	.navegacion a {
@@ -184,4 +186,21 @@ img {
 }
 .curso p span {
 	font-weight: 400;
+}
+
+/* Footer */
+.site-footer {
+	background-color: #000;
+	padding: 3rem;
+	margin-top: 4rem;
+}
+.site-footer p {
+	color: #fff;
+	font-size: 4rem;
+	font-weight: 400;
+	font-family: "PT Sans", sans-serif;
+	text-align: center;
+}
+.site-footer p span {
+	font-weight: 700;
 }
