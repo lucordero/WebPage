@@ -350,10 +350,12 @@ h4 {
 
 /** Pag Internas **/
 /*Nosotros*/
-.contenido-nosotros {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-column-gap: 2.5rem;
+@media (min-width: 768px) {
+	.contenido-nosotros {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 2.5rem;
+	}
 }
 .texto-nosotros blockquote {
 	font-weight: 900;
