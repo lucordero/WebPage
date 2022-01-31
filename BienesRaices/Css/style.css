@@ -13,6 +13,12 @@ body {
 	line-height: 1.8;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
 /** Global **/
 img {
 	max-width: 100%;
@@ -412,4 +418,8 @@ textarea {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+#cantidad {
+	-webkit-appearance: none;
+	margin: 0;
 }
